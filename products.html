@@ -12,16 +12,6 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
-    <link
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
       rel="stylesheet"
     />
@@ -30,7 +20,7 @@
   </head>
   <body>
     <header
-      class="h-[84rem] max-w-[100%] bg-[url('./img/Header.png')] bg-center bg-cover no-repeat relative duration-1000 ease-in-out transition-background-image header"
+      class="h-[40rem] max-w-[100%] bg-[url('./img//products/bg-product.png')] bg-center bg-cover no-repeat"
     >
       <div class="bg-[#00000030] px-4">
         <div class="container mx-auto flex items-center justify-between gap-4">
@@ -92,7 +82,7 @@
             <li>
               <a
                 href="index.html"
-                class="text-[1.4rem] uppercase leading-[3rem] lg:leading-[6rem] text-[#fe0100] font-medium text-center underline"
+                class="text-[1.4rem] no-underline uppercase leading-[3rem] lg:leading-[6rem] font-medium text-center text-[#000000] hover:text-[#fe0100] ease-in-out duration-300 transition-all"
                 >Home</a
               >
             </li>
@@ -109,9 +99,9 @@
                 id="multiLevelDropdownButton"
                 data-dropdown-toggle="multi-dropdown"
                 data-dropdown-trigger="hover"
-                class="no-underline text-[1.4rem] leading-[3rem] lg:leading-[6rem] uppercase text-[#000000] font-medium text-center hover:text-[#fe0100] ease-in-out duration-300 transition-all"
-                >products
-              </a>
+                class="text-[1.4rem] leading-[3rem] lg:leading-[6rem] uppercase text-[#fe0100] underline font-medium text-center"
+                >products</a
+              >
 
               <!-- Dropdown menu -->
               <div
@@ -2011,612 +2001,973 @@
           >
         </div>
       </nav>
-      <div class="container mx-auto mt-48 flex items-start gap-12 flex-col p-4">
-        <p
-          class="w-[28.5rem] h-[4rem] text-[2rem] text-[#ffffff] leading-[4rem] lg:leading-[5rem] xl:leading-[6rem] font-medium border border-[#ffffff] rounded capitalize flex items-center justify-center"
-        >
-          high quality product range
-        </p>
+
+      <div class="container mx-auto mt-24 flex items-center flex-col p-4">
         <h1
-          class="text-[5.5rem] md:text-[6.5rem] lg:text-[7.5rem] xl:text-[8.5rem] leading-[5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8rem] text-[#ffffff] font-bold uppercase"
+          class="text-[3.8rem] text-center md:text-[4.2rem] lg:text-[4.6rem] xl:text-[5rem] leading-[5rem] md:leading-[6rem] lg:leading-[7rem] xl:leading-[8rem] text-[#ffffff] font-bold uppercase"
         >
-          Surgical<br />instruments
+          Surgical instruments
         </h1>
-        <a
-          href="#"
-          class="w-[16.1rem] h-[5.3rem] flex items-center justify-center text-[1.6rem] text-[#ffffff] leading-[4rem] lg:leading-[5rem] xl:leading-[6rem] font-medium no-underline bg-[#fe0100] hover:bg-[#e60000] ease-in-out duration-300 transition-all rounded-[4.6rem] uppercase"
-          >view more</a
+        <p
+          class="text-[1.6rem] capitalize text-[#ffffff] leading-[5rem] flex items-center gap-2"
         >
-      </div>
-      <div
-        class="absolute bottom-[8%] right-[-14%] sm:right-[-8%] md:bottom-[30%] lg:bottom-[38%] lg:right-[-6%] xl:right-[-5%] border border-[#ffffff] w-[20.7rem] h-[20.5rem] rounded-[50%] p-4 flex items-center justify-center"
-      >
-        <div
-          class="border border-[#ffffff] w-[18.7rem] h-[19rem] rounded-[50%] flex flex-col gap-4 items-center justify-center"
-        >
-          <p class="flex items-center">
-            <button
-              class="w-[2.3rem] h-[2.3rem] text-[1.6rem] leading-[7rem] text-[#ffffff] bg-[#acacac] rounded-[4.6rem] font-bold flex items-center justify-center"
-              onclick="changeBackground(0)"
-            >
-              1
-            </button>
-            <span class="w-[5rem] h-[1px] bg-[#acacac]"></span>
-          </p>
-          <p class="flex items-center">
-            <button
-              class="w-[2.3rem] h-[2.3rem] text-[1.6rem] leading-[7rem] text-[#ffffff] bg-[#fe0100] rounded-[4.6rem] font-bold flex items-center justify-center"
-              onclick="changeBackground(1)"
-            >
-              2
-            </button>
-            <span class="w-[7.2rem] h-[1px] bg-[#fe0100]"></span>
-          </p>
-          <p class="flex items-center">
-            <button
-              class="w-[2.3rem] h-[2.3rem] text-[1.6rem] leading-[7rem] text-[#ffffff] bg-[#acacac] rounded-[4.6rem] font-bold flex items-center justify-center"
-              onclick="changeBackground(2)"
-            >
-              3
-            </button>
-            <span class="w-[5rem] h-[1px] bg-[#acacac]"></span>
-          </p>
-        </div>
+          <span>home</span><i class="fa-solid fa-angles-right text-[1rem]"></i
+          ><span>surgical instruments</span
+          ><i class="fa-solid fa-angles-right text-[1rem] text-[#fe0100]"></i
+          ><span class="text-[#fe0100]">Scissors</span>
+        </p>
       </div>
     </header>
 
-    <section class="pb-32 pt-80">
-      <div class="container mx-auto px-4">
-        <div
-          class="grid grid-cols-1 2xl:grid-cols-[1.2fr_1fr] gap-20 2xl:gap-40"
-        >
-          <div class="relative flex flex-col gap-8">
-            <img
-              src="./img/about/about1.png"
-              class="w-[90%] md:w-[69rem] md:h-[48.2rem] self-start justify-self-end object-cover"
-              alt="about1"
-            />
-            <img
-              src="./img/about/about2.png"
-              class="w-[45%] md:w-[32.2rem] md:h-[27.6rem] absolute object-cover right-0 top-[-16%] md:right-[19%] md:top-[-18%] lg:right-[40%] lg:top-[-25%] xl:right-[46%] xl:top-[-25%] 2xl:right-[4%] 2xl:top-[-22%] about-img2"
-              alt="about2"
-            />
-            <div
-              class="p-8 lg:p-0 lg:w-[30.9rem] lg:h-[24.6rem] relative lg:absolute lg:right-[27%] lg:bottom-[8%] xl:bottom-[9%] xl:right-[34%] 2xl:bottom-[25%] 2xl:right-[-15%] flex flex-col justify-center items-center bg-[#fe0100] rounded-[4.6rem] border-[10px] border-[#ffffff] about-img3"
-            >
-              <p
-                class="2xl:text-[3.2rem] text-[2.8rem] uppercase font-bold leading-[3.2rem] 2xl:leading-[3.6rem] text-center text-[#ffffff]"
-              >
-                distributer request
-              </p>
-              <a
-                href="#"
-                class="no-underline text-[#ffffff] leading-[4rem] md:leading-[5rem] xl:leading-[6rem] font-medium text-[1.6rem] uppercase"
-                >view more</a
-              >
-            </div>
-          </div>
-          <div class="flex flex-col xl:pl-8">
-            <h3
-              class="mb-8 2xl:text-[3.2rem] text-[2.8rem] md:text-[3rem] text-[#1f1f1f] leading-[4rem] xl:leading-[5.5rem] 2xl:leading-[7rem] font-bold uppercase"
-            >
-              about franko shehzad surgico (pvt) ltd.
-            </h3>
-            <p
-              class="text-[1.7rem] text-[#585858] font-light leading-[2.8rem] pb-8"
-            >
-              We are manufacturer and exporter of quality surgical instruments,
-              dental instruments, manicure and beauty care instrument.
-            </p>
-            <p
-              class="text-[1.7rem] text-[#585858] leading-[2.8rem] font-light pb-8"
-            >
-              Our instruments are made from the finest grade of stainless steel
-              on precision security accuracy of pattern and with latest
-              technology. We also manufacture the similar instruments according
-              to the samples and drawings on the special demands of our valued
-              customers.
-            </p>
-            <div class="flex gap-4 items-center pb-8">
-              <img
-                src="./img/about/about3.png"
-                class="w-[7.2rem] h-[7.3rem] object-cover"
-                alt="about3"
-              />
-              <p
-                class="text-[2.2rem] text-[#585858] leading-[2.8rem] font-medium capitalize"
-              >
-                20 years of experiences
-              </p>
-            </div>
-            <p
-              class="text-[1.7rem] text-[#585858] font-light leading-[2.8rem] pb-12"
-            >
-              We are ISO 13485, SA 8000, ISO 9001:2008, CE, FDA approved company
-            </p>
-            <a
-              href="#"
-              class="w-[16.1rem] h-[5.3rem] text-[1.6rem] flex items-center justify-center hover:bg-[#fe0100] transition-all duration-300 ease-in-out leading-[6rem] text-[#ffffff] font-medium no-underline bg-[#000] rounded-[4.6rem] uppercase"
-              >view more</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
     <section
-      class="py-24 bg-[url('img/catagory/bg-catagory.jpeg')] bg-cover bg-center"
+      class="container mx-auto relative grid md:gap-12 grid-cols-1 lg:grid-cols-[35.4rem_1fr] px-4 mt-12 lg:mt-0 mb-32"
     >
-      <div class="container px-4 mx-auto">
-        <div class="flex flex-col items-center mb-8 text-center">
-          <p
-            class="text-[2rem] text-[#1f1f1f] leading-[4rem] md:leading-[5.5rem] lg:leading-[7rem]"
-          >
-            Manufactureer & Exporter of Surgical, Dental, Beauty and Veterinary
-            Instruments
-          </p>
-          <h2
-            class="xl:text-[4.5rem] lg:text-[4rem] text-[3rem] md:text-[3.5rem] leading-[7rem] uppercase text-[#1f1f1f] font-bold"
-          >
-            our catagories
-          </h2>
-        </div>
-        <div class="items-center">
-          <!-- <div
-            class="arrow left-arrow justify-self-center border text-[2.5rem] w-[5rem] h-[5rem] rounded-[2.5rem] border-[#1f1f1f] flex items-center justify-center"
-          >
-            <i class="fa-solid fa-arrow-left"></i>
-          </div> -->
-          <div class="slider">
-            <div>
-              <div class="flex items-center">
-                <div class="w-[32.3rem] h-[26.9rem]">
-                  <img
-                    src="./img/catagory/catagory1.png"
-                    class="w-[100%] h-[100%] object-cover"
-                    alt="catagory1"
-                  />
-                </div>
-                <div
-                  class="bg-[#fe0100] flex flex-col justify-center pl-8 gap-6 p-4 w-[22.5rem] h-[26.9rem]"
-                >
-                  <h5
-                    class="text-[2.4rem] lg:text-[3rem] md:text-[2.7rem] text-[#ffffff] font-medium lg:leading-[3.6rem] md:leading-[3.2rem] leading-[2.8rem]"
-                  >
-                    Single Use Instruments
-                  </h5>
-                  <p
-                    class="font-light text-[1.4rem] text-[#f8f8f8] leading-[2.5rem]"
-                  >
-                    Our instruments are made from the finest grade of stainless
-                    steel on precision security
-                  </p>
-                  <a
-                    href="#"
-                    class="text-[1.6rem] underline text-[#ffffff] font-medium leading-[3rem] hover:text-[#1f1f1f] duration-300 ease-in-out transition-all"
-                    >View More Details</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="flex items-center">
-                <div class="w-[32.3rem] h-[26.9rem]">
-                  <img
-                    src="./img/catagory/catagory2.png"
-                    class="w-[100%] h-[100%] object-cover"
-                    alt="catagory2"
-                  />
-                </div>
-                <div
-                  class="bg-[#f1f1f1] flex flex-col justify-center pl-8 gap-6 p-4 w-[22.5rem] h-[26.9rem]"
-                >
-                  <h5
-                    class="text-[2.4rem] lg:text-[3rem] md:text-[2.7rem] text-[#1f1f1f] font-medium lg:leading-[3.6rem] md:leading-[3.2rem] leading-[2.8rem]"
-                  >
-                    Surgical Instruments
-                  </h5>
-                  <p
-                    class="text-[1.4rem] text-[#1f1f1f] font-light leading-[2.5rem]"
-                  >
-                    Our instruments are made from the finest grade of stainless
-                    steel on precision security
-                  </p>
-                  <a
-                    href="#"
-                    class="capitalize text-[1.6rem] underline text-[#1f1f1f] font-medium leading-[3rem] hover:text-[#fe0100] duration-300 ease-in-out transition-all"
-                    >view more details</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="flex items-center">
-                <div class="w-[32.3rem] h-[26.9rem]">
-                  <img
-                    src="./img/catagory/catagory3.png"
-                    class="w-[100%] h-[100%] object-cover"
-                    alt="catagory3"
-                  />
-                </div>
-                <div
-                  class="bg-[#f1f1f1] flex flex-col justify-center pl-8 gap-6 p-4 w-[22.5rem] h-[26.9rem]"
-                >
-                  <h5
-                    class="text-[2.4rem] lg:text-[3rem] md:text-[2.7rem] text-[#1f1f1f] font-medium lg:leading-[3.6rem] md:leading-[3.2rem] leading-[2.8rem]"
-                  >
-                    Dental Instruments
-                  </h5>
-                  <p
-                    class="text-[1.4rem] text-[#1f1f1f] font-light leading-[2.5rem]"
-                  >
-                    Our instruments are made from the finest grade of stainless
-                    steel on precision security
-                  </p>
-                  <a
-                    href="#"
-                    class="capitalize text-[1.6rem] underline text-[#1f1f1f] font-medium leading-[3rem] hover:text-[#fe0100] duration-300 ease-in-out transition-all"
-                    >view more details</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div>
-              <div class="flex items-center">
-                <div class="w-[32.3rem] h-[26.9rem]">
-                  <img
-                    src="./img/catagory/catagory3.png"
-                    class="w-[100%] h-[100%] object-cover"
-                    alt="catagory3"
-                  />
-                </div>
-                <div
-                  class="bg-[#f1f1f1] flex flex-col justify-center pl-8 gap-6 p-4 w-[22.5rem] h-[26.9rem]"
-                >
-                  <h5
-                    class="text-[2.4rem] lg:text-[3rem] md:text-[2.7rem] text-[#1f1f1f] font-medium lg:leading-[3.6rem] md:leading-[3.2rem] leading-[2.8rem]"
-                  >
-                    Dental Instruments
-                  </h5>
-                  <p
-                    class="text-[1.4rem] text-[#1f1f1f] font-light leading-[2.5rem]"
-                  >
-                    Our instruments are made from the finest grade of stainless
-                    steel on precision security
-                  </p>
-                  <a
-                    href="#"
-                    class="capitalize text-[1.6rem] underline text-[#1f1f1f] font-medium leading-[3rem] hover:text-[#fe0100] duration-300 ease-in-out transition-all"
-                    >view more details</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+      <button
+        data-drawer-target="sidebar-multi-level-sidebar"
+        data-drawer-toggle="sidebar-multi-level-sidebar"
+        aria-controls="sidebar-multi-level-sidebar"
+        type="button"
+        class="border inline-flex justify-self-start gap-2 items-center p-2 text-[1.6rem] text-[#ffffff] bg-[#000000] rounded-lg lg:hidden hover:bg-[#fe0000] focus:outline-none focus:ring-0 transition-all duration-300 ease-in-out"
+      >
+        <svg
+          class="w-8 h-8"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"
+          ></path>
+        </svg>
+        <span class="">Product Menu</span>
+      </button>
 
-          <!-- <div
-            class="arrow right-arrow justify-self-center border text-[2.5rem] w-[5rem] h-[5rem] rounded-[2.5rem] border-[#1f1f1f] flex items-center justify-center"
-          >
-            <i class="fa-solid fa-arrow-right"></i>
-          </div> -->
-        </div>
-      </div>
-    </section>
-    <section class="mx-auto my-24 container px-4">
-      <div class="flex flex-col items-center mb-12 text-center">
-        <p
-          class="text-[1.7rem] text-[#1f1f1f] leading-[3.8rem] md:leading-[4.8rem] lg:leading-[5.8rem]"
-        >
-          Manufactureer & Exporter of Surgical, Dental, Beauty and Veterinary
-          Instruments
-        </p>
-        <h2
-          class="lg:text-[3.7rem] md:text-[3.2rem] text-[2.8rem] font-bold text-[#1f1f1f] uppercase leading-[5.8rem]"
-        >
-          our feature products
-        </h2>
-      </div>
-      <div class="flex items-center flex-wrap justify-center gap-8">
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
-          >
+      <aside
+        id="sidebar-multi-level-sidebar"
+        class="bg-[#ffffff] w-[35.4rem] border-t-[4px] border-t-[#fe0000] filter drop-shadow-md fixed lg:sticky top-0 left-0 z-40 h-screen lg:h-auto transition-transform -translate-x-full lg:translate-x-0"
+        aria-label="Sidebar"
+      >
+        <div>
+          <div class="flex items-center gap-4 justify-center">
             <img
-              src="./img/feature/feature1.png"
-              class="w-[100%] h-[100%] object-cover"
-              alt="Feature2"
+              src="./img/products/product-logo.png"
+              alt="logo"
+              class="w-[4.2rem] h-[4.9rem] object-cover"
             />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Surgical Diagnostics
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
-          >
-            <img
-              src="./img/feature/feature2.png"
-              class="w-[100%] h-[100%] object-cover"
-              alt="Feature2"
-            />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Dressing & Tissue Forceps
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border-[2px] border-[#f2f2f2]"
-          >
-            <img
-              src="./img/feature/feature3.png"
-              class="object-cover h-[100%] py-4 w-100%"
-              alt="Feature3"
-            />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Tooth Extracting Forceps(eng)
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
-          >
-            <img
-              src="./img/feature/feature4.png"
-              class="w-[100%] h-[100%] object-cover"
-              alt="Feature4"
-            />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Hoof and Claw Instruments
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
-          >
-            <img
-              src="./img/feature/feature5.png"
-              class="w-[100%] h-[100%] object-cover"
-              alt="Feature5"
-            />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Single Use Surgical Instruments
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-        <div class="flex flex-col items-center gap-8">
-          <div
-            class="feature_img-box relative w-[25.7rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
-          >
-            <img
-              src="./img/feature/feature6.png"
-              class="w-[100%] h-[100%] object-cover"
-              alt="Feature6"
-            />
-            <a
-              href="#"
-              class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
-              >add to inquiry
-            </a>
-          </div>
-          <div class="flex flex-col gap-2 items-center text-center">
-            <h5 class="text-[#000000] text-[1.6rem] font-normal">
-              Horse Farrier Equipments
-            </h5>
-            <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="bg-[url('./img/gurrentee/bg-gurrentee.png')] bg-center bg-cover"
-    >
-      <div class="container mx-auto px-4">
-        <div
-          class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-[1fr_17rem_1.2fr] gap-12"
-        >
-          <div class="flex flex-col gap-8 justify-end mt-24">
-            <p
-              class="text-[2rem] text-[#fe0100] font-bold uppercase leading-[7rem]"
-            >
-              why we are different
-            </p>
             <h2
-              class="xl:text-[6rem] md:text-[4.8rem] text-[4.2rem] text-[#ffffff] font-bold uppercase leading-[4rem] md:leading-[5rem] lg:leading-[6rem] mb-12"
+              class="text-[2.4rem] uppercase text-[#1f1f1f] leading-[7rem] font-bold"
             >
-              gurrentee of <br />satisfaction
+              product categories
             </h2>
+          </div>
+          <ul
+            class="flex flex-col gap-2 w-[35.4rem] border-t border-t-[#e8e8e8] overflow-y-scroll lg:overflow-y-hidden"
+          >
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example"
+                data-collapse-toggle="dropdown-example"
+              >
+                single use instruments
+              </button>
+              <ul
+                id="dropdown-example"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example1"
+                data-collapse-toggle="dropdown-example1"
+              >
+                surgical instruments
+              </button>
+              <ul
+                id="dropdown-example1"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Scissors</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Dressing Forceps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Artery Forceps</span>
+                  </a>
+                </li>
+                <li>
+                  <button
+                    type="button"
+                    class="flex items-center gap-2 text-[1.6rem] outline-0 focus:outline-0 leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                    aria-controls="dropdown-example1-1"
+                    data-collapse-toggle="dropdown-example1-1"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i>
+                    <span class="">Oral Instruments</span>
+                  </button>
+                  <ul
+                    id="dropdown-example1-1"
+                    class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+                  >
+                    <li>
+                      <a
+                        href="#"
+                        class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                      >
+                        <i class="fa-solid fa-angles-right text-[1rem]"></i
+                        ><span class="">Towel, Sponge Holding Forceps</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Suture Instrument</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Retractors</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Cholecystectomy & Gall Stone</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Intestinal Clamps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Gynecology</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Obstetrics Instruments</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Dermatology</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Peritoneum,Hysterectomy Clamps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Urology</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Amputation Instruments</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Bone Surgery</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Suction Tubes</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Plaster Cast Instruments</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Rib Spresders</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Bronchus,Organ Forceps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Atrauma Bulldog Clamps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Atrauma Forceps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Patient Treatment Items</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Vascular Measuring Device, Forceps</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Treatment Room Items</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Vascular Dilators</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Dissection Instruments</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example2"
+                data-collapse-toggle="dropdown-example2"
+              >
+                dental instruments
+              </button>
+              <ul
+                id="dropdown-example2"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example3"
+                data-collapse-toggle="dropdown-example3"
+              >
+                beauty instruments
+              </button>
+              <ul
+                id="dropdown-example3"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example4"
+                data-collapse-toggle="dropdown-example4"
+              >
+                veterinary instruments
+              </button>
+              <ul
+                id="dropdown-example4"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example5"
+                data-collapse-toggle="dropdown-example5"
+              >
+                ent instruments
+              </button>
+              <ul
+                id="dropdown-example5"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example6"
+                data-collapse-toggle="dropdown-example6"
+              >
+                orthopedic instruments
+              </button>
+              <ul
+                id="dropdown-example6"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="text-[1.6rem] leading-[7rem] outline-0 focus:outline-0 uppercase text-[#1f1f1f] font-bold flex items-center pl-8 h-[4.2rem] w-full bg-[#f1f1f1] hover:bg-[#fe0000] hover:text-[#ffffff] transition-all duration-300 ease-in-out"
+                aria-controls="dropdown-example7"
+                data-collapse-toggle="dropdown-example7"
+              >
+                left hand instruments
+              </button>
+              <ul
+                id="dropdown-example7"
+                class="hidden list-none pl-12 flex flex-col gap-2 py-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Diagnostics</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="flex items-center gap-2 text-[1.6rem] leading-[3.5rem] text-[#000000] transition-all duration-300 ease-in-out hover:text-[#fe0000]"
+                  >
+                    <i class="fa-solid fa-angles-right text-[1rem]"></i
+                    ><span class="">Surgical Handles</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <div>
+        <div class="mt-4 md:mt-16">
+          <h3
+            class="text-[2rem] uppercase leading-[5.8rem] text-[#1f1f1f] font-bold text-center md:text-left mb-4 md:mb-0"
+          >
+            Towel, Sponge Holding Forceps
+          </h3>
+          <div
+            class="product-container flex-wrap flex items-center justify-center gap-8"
+          >
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border-[2px] border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature3.png"
+                  class="object-cover h-[100%] py-4 w-100%"
+                  alt="Feature3"
+                />
+                <a
+                  href="./details.html"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Tooth Extracting Forceps(eng)
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature4.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature4"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Hoof and Claw Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature5.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature5"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Single Use Surgical Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature6.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature6"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Horse Farrier Equipments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature2.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature2"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Dressing & Tissue Forceps
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border-[2px] border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature3.png"
+                  class="object-cover h-[100%] py-4 w-100%"
+                  alt="Feature3"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Tooth Extracting Forceps(eng)
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature4.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature4"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Hoof and Claw Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div class="flex flex-col items-center gap-8 product-item">
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature5.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature5"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Single Use Surgical Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
             <div
-              class="w-100% h-[100%] gurrentee-box1 flex items-end justify-center"
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
             >
-              <img
-                src="./img/gurrentee/gurrentee1.png"
-                class="w-[100%] h-[100%] 2xl:h-auto object-cover"
-                alt="gurrentee1"
-              />
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature6.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature6"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Horse Farrier Equipments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature2.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature2"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Dressing & Tissue Forceps
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border-[2px] border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature3.png"
+                  class="object-cover h-[100%] py-4 w-100%"
+                  alt="Feature3"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Tooth Extracting Forceps(eng)
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature4.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature4"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Hoof and Claw Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature5.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature5"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Single Use Surgical Instruments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature6.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature6"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Horse Farrier Equipments
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center gap-8 product-item"
+              style="display: none"
+            >
+              <div
+                class="feature_img-box relative w-[30.6rem] h-[33.4rem] flex items-center justify-center border border-[#f2f2f2]"
+              >
+                <img
+                  src="./img/feature/feature2.png"
+                  class="w-[100%] h-[100%] object-cover"
+                  alt="Feature2"
+                />
+                <a
+                  href="#"
+                  class="feature_btn opacity-0 duration-500 transition-all ease-in-out hover:bg-[#e60000] translate-x-[-50%] translate-y-[-50%] leading-[5rem] font-medium rounded-[4.6rem] absolute top-[80%] left-[50%] w-[13.3rem] h-[4.5rem] flex items-center justify-center text-center no-underline uppercase text-[1.3rem] text-[#ffffff] bg-[#fe0100]"
+                  >add to inquiry
+                </a>
+              </div>
+              <div class="flex flex-col gap-2 items-center text-center">
+                <h5 class="text-[#000000] text-[1.6rem] font-normal">
+                  Dressing & Tissue Forceps
+                </h5>
+                <p class="text-[#000000] text-[1.4rem] font-bold">FS-2543</p>
+              </div>
             </div>
           </div>
           <div
-            class="flex flex-col items-center justify-end lg:mb-48 gap-12 text-center"
+            class="justify-self-center flex flex-col gap-8 justify-center items-center mt-16"
           >
-            <div class="border-b border-b-[#444] w-[16.4rem]">
-              <h5 class="text-[4rem] text-[#fe0100] font-bold leading-[3rem]">
-                400 +
-              </h5>
-              <p
-                class="text-[2rem] text-[#ffffff] font-medium capitalize leading-[5rem]"
-              >
-                product range
-              </p>
-            </div>
-            <div class="border-b border-b-[#444] w-[16.4rem]">
-              <h5 class="text-[4rem] text-[#fe0100] font-bold leading-[3rem]">
-                800 +
-              </h5>
-              <p
-                class="text-[2rem] text-[#ffffff] font-medium capitalize leading-[5rem]"
-              >
-                our team
-              </p>
-            </div>
-            <div class="border-b border-b-[#444] w-[16.4rem]">
-              <h5 class="text-[4rem] text-[#fe0100] font-bold leading-[3rem]">
-                200 +
-              </h5>
-              <p
-                class="text-[2rem] text-[#ffffff] font-medium capitalize leading-[5rem]"
-              >
-                worldwide client
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col gap-24 justify-start mb-24">
-            <div
-              class="w-100% h-[100%] gurrentee-box2 flex items-start justify-center"
-            >
-              <img
-                src="./img/gurrentee/gurrentee2.png"
-                class="w-[100%] h-[100%] xl:h-auto object-cover"
-                alt="gurrentee2"
-              />
-            </div>
-            <p
-              class="text-[1.7rem] leading-[2.8rem] text-[#ffffff] font-light text-center 2xl:text-start 2xl:ml-24"
-            >
-              We are manufacturer and exporter of quality surgical instruments,
-              ental instruments manicure and beauty care instrument.
+            <p class="text-[1.6rem] text-[#000000] leading-[1.9rem] text-end">
+              Showing 1-16 of 34 items
             </p>
+            <div class="w-[41rem] h-[0.6rem] bg-[#f2f2f2] flex items-center">
+              <div class="h-[0.3rem] w-[80%] bg-[#000000]"></div>
+            </div>
+            <a
+              href="#"
+              id="load-more-btn"
+              class="w-[16.7rem] h-[4.3rem] rounded-[2.1rem] text-[1.6rem] leading-[1.9rem] text-[#ffffff] font-medium flex items-center justify-center no-underline bg-[#fe0100] hover:bg-[#e60000] ease-in-out duration-300 transition-all capitalize"
+              >load more</a
+            >
           </div>
         </div>
       </div>
     </section>
-    <section class="bg-[#fe0100] py-24">
-      <div class="container mx-auto px-4">
-        <h2
-          class="text-center mb-16 text-[#ffffff] font-bold xl:text-[4.5rem] lg:text-[4rem] text-[3rem] md:text-[3.5rem] leading-[7rem] uppercase"
-        >
-          services we offer
-        </h2>
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-16 items-center"
-        >
-          <div class="flex flex-col items-center gap-8 text-center">
-            <img
-              src="./img/offer/offer1.png"
-              class="w-[14.7rem] h-[12rem] object-contain"
-              alt="offer1"
-            />
-            <p
-              class="lg:text-[2.6rem] md:text-[2.3rem] text-[2rem] leading-[7rem] text-[#ffffff] font-bold uppercase"
-            >
-              logistics solutions
-            </p>
-          </div>
-          <div class="flex flex-col items-center gap-4 text-center">
-            <img
-              src="./img/offer/offer2.png"
-              class="w-[14.7rem] h-[12rem] object-contain"
-              alt="offer2"
-            />
-            <p
-              class="lg:text-[2.6rem] md:text-[2.3rem] text-[2rem] text-[#ffffff] leading-[7rem] font-bold uppercase"
-            >
-              oem
-            </p>
-          </div>
-          <div class="flex flex-col items-center gap-4 text-center">
-            <img
-              src="./img/offer/offer3.png"
-              class="w-[14.7rem] h-[12rem] object-contain"
-              alt="offer3"
-            />
-            <p
-              class="lg:text-[2.6rem] md:text-[2.3rem] text-[2rem] text-[#ffffff] leading-[7rem] font-bold uppercase"
-            >
-              customization
-            </p>
-          </div>
-          <div class="flex flex-col items-center gap-4 text-center">
-            <img
-              src="./img/offer/offer4.png"
-              class="w-[14.7rem] h-[12rem] object-contain"
-              alt="offer4"
-            />
-            <p
-              class="lg:text-[2.6rem] md:text-[2.3rem] text-[2rem] text-[#ffffff] leading-[7rem] font-bold uppercase"
-            >
-              technical support
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container my-24 px-4 mx-auto">
-      <div class="flex flex-col items-center mb-12 text-center">
-        <p
-          class="text-[2rem] text-[#1f1f1f] leading-[4rem] md:leading-[5.5rem] lg:leading-[7rem]"
-        >
-          We are SA 8000, ISO 13485, ISO 9001:2008 certified, CE Mark and CGMP
-          (FDA) approved company.
-        </p>
-        <h2
-          class="xl:text-[4.5rem] lg:text-[4rem] text-[3rem] md:text-[3.5rem] leading-[7rem] uppercase text-[#1f1f1f] font-bold"
-        >
-          certifications
-        </h2>
-      </div>
-      <div class="flex items-center justify-center">
-        <div class="flex justify-center">
-          <img
-            src="./img/certications/certification.png"
-            class=""
-            alt="certification"
-          />
-        </div>
-      </div>
-    </section>
+
     <footer class="bg-[#000] py-24">
       <div class="mx-auto flex flex-col gap-16 container px-4">
         <div
@@ -2742,7 +3093,6 @@
         </div>
       </div>
     </footer>
-
     <script>
       function toggleMenu() {
         const menu = document.getElementById("menu");
@@ -2763,61 +3113,24 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $(".slider").slick({
-          infinite: true,
-          speed: 500,
-          arrows: true,
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          responsive: [
-            {
-              breakpoint: 1280,
-              settings: {
-                slidesToShow: 2,
-              },
-            },
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 1,
-                arrows: false,
-              },
-            },
-          ],
-        });
-      });
-    </script>
     <script>
-      const bgImages = [
-        'url("./img/gurrentee/bg-gurrentee.png")',
-        'url("./img/Header.png")',
-        'url("./img/catagory/bg-catagory.jpeg")',
-      ];
+      const productContainer = document.querySelector(".product-container");
+      const loadMoreBtn = document.getElementById("load-more-btn");
 
-      function updateBackgroundImage(index) {
-        document.querySelector(".header").style.backgroundImage =
-          bgImages[index];
-      }
+      const initialItemCount = 8;
+      let currentItemCount = initialItemCount;
 
-      updateBackgroundImage(0);
+      loadMoreBtn.addEventListener("click", function () {
+        const allItems = productContainer.querySelectorAll(".product-item");
 
-      let currentIndex = 0;
+        for (let i = currentItemCount; i < currentItemCount + 8; i++) {
+          if (allItems[i]) {
+            allItems[i].style.display = "block";
+          }
+        }
 
-      function autoplayBackground() {
-        currentIndex = (currentIndex + 1) % bgImages.length;
-        updateBackgroundImage(currentIndex);
-      }
-
-      setInterval(autoplayBackground, 5000);
-
-      function changeBackground(index) {
-        updateBackgroundImage(index);
-      }
+        currentItemCount += 8;
+      });
     </script>
   </body>
 </html>
