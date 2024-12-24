@@ -4,7 +4,6 @@ const menuItems = [
   {
     name: "products",
     path: "./products.html",
-    pos: "relative",
     catagory: [
       {
         productName: "single use",
@@ -287,7 +286,7 @@ const menuItems = [
 
 const menu = document.querySelector("#menu");
 menuItems.forEach((item, i) => {
-  let html = `<li class=${item.pos || ""}>
+  let html = `<li class=${item.catagory ? "relative" : ""}>
               <a
                 href=${item.path}
                 ${
@@ -295,7 +294,7 @@ menuItems.forEach((item, i) => {
                     ? 'id="multiLevelDropdownButton" data-dropdown-toggle="multi-dropdown" data-dropdown-trigger="hover"'
                     : ""
                 }
-                class="text-[1.4rem] uppercase leading-[3rem] lg:leading-[6rem] text-[#1f1f1f] hover:text-[#fe0100] font-medium text-center duration-300 ease-in-out transition-all"
+                class="text-[1.4rem] uppercase leading-[3rem] lg:leading-[6rem] text-[#1f1f1f] hover:text-[#fe0100] no-underline font-medium text-center duration-300 ease-in-out transition-all"
                 >${item.name}</a
               >`;
 
